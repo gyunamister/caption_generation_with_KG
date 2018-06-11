@@ -1,11 +1,11 @@
 # caption_generation_with_KG
 caption generation with knowledge graph
 
-you need to download image files on directory ./training_data from
+you need to download image files on directory ./training_data from https://visualgenome.org/api/v0/api_home.html
 
-you need to download objects, region_descriptions, relations from
+you need to download objects, region_descriptions, relations from https://visualgenome.org/api/v0/api_home.html
 
-you need to download imagenet-vgg-verydeep-19.mat on ./data from
+you need to download imagenet-vgg-verydeep-19.mat on ./data from http://www.vlfeat.org/matconvnet/pretrained/
 
 you need to create directory ./resized_training_data
 
@@ -21,5 +21,5 @@ you need to create directory ./resized_training_data
 6. python train.py
 	This trains suggested model.
 	Be aware that line #240 in core/model.py is commented.
-7. run jupyter notebook and open evaluate_model-12.ipynb (to evalutate baseline model)
+7. run jupyter notebook and open evaluate_model-12.ipynb (to evalutate suggested model)
 	Be aware that line #240 in core/model.py is uncommented.
